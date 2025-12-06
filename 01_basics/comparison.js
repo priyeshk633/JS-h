@@ -13,3 +13,15 @@ console.log("2" === 2) //false
 
 //non primitive(referenced)
 //array,objects,functions
+
+//js-weakly,dynamically typed
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id === anotherId)
+
+const heros = ["shaktiman", "naagraj", "doga"]
+let myObj={
+    name: "pk",
+    age: 20 ,
+}
+//type-object
