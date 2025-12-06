@@ -3,7 +3,7 @@ console.log(typeof (score))
 
 console.log(typeof score)
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber)//Nan
+console.log(typeof valueInNumber) //Nan
 
 //conversion "33" => 33
 //"33abc" => Nan
@@ -28,5 +28,6 @@ console.log("1"+2+2) //122
 console.log(1+2+"2") //32
 console.log(+true)
 console.log(+"")
+num1 = num2 = num3 = 2+2
 
-num1 = num2 =num3 = 2+2
+
